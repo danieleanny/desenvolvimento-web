@@ -1,0 +1,11 @@
+'''
+QUESTÃO6. Leia os dois primeiros números de um array de inteiros e depois calcule
+os 8 números a seguir do array. A regra é que os demais elementos são cálculos
+somando os dois anteriores. Exiba o array usando print.'''
+
+num  = [ int ( input ( 'Digite o primeiro número:' )), int ( input ( 'Digite o segundo numero:' ))]
+controle = 0
+para  controle  na  faixa ( 6 ):
+    número _ anexar ( num [ controle ] +  num [ controle + 1 ])
+    controle += 1 
+print ( "Números:" , num )
